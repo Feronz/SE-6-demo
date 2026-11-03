@@ -1,0 +1,79 @@
+h1 {
+    text-align: center;
+    color: rgb(255, 68, 0);
+    font-family: "Redaction 35", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+h2 {
+    width: 100%;
+    color: rgb(48, 23, 0);
+    font-family: "Redaction 35", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1em;
+}
+
+img {
+    width: 50%;
+    height: auto;
+}
+
+body {
+    text-align: justify;
+    text-justify: inter-word;
+    background-color: rgb(254, 239, 233);
+}
+
+main {
+    width: 75vw;
+}
+
+.flex-horizontal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 8em;
+}
+
+.flex-vertical {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1em;
+}
+
+.flex-vertical.align-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+body.flex-vertical, main.flex-vertical {
+    gap: 1em;
+}
+
+main > div {
+    width: 100%;
+}
+
+img {
+    filter: drop-shadow(0px 16px 8px rgba(0, 0, 0, 0.5));
+    border-radius: 8px; 
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 8px;
+  align-self: center;
+}
+
+th {
+  background-color: rgb(255, 214, 198);
+  text-align: center;
+}
